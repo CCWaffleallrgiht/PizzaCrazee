@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Buying Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center><a href="index.html">Go Back</a></center>
+    <header>
+        <h1>Pizza Buying Page</h1>
+    </header>
+    <main>
+        <section class="menu">
+            <h2>Menu</h2>
+            <div class="pizza">
+                <h3>Supreme Pizza</h3>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Supreme Pizza', 10)">Add to Cart</button>
+            </div>
+            <div class="pizza">
+                <h3>Veggie Delight</h3>
+                <p>Price: $9</p>
+                <button onclick="addToCart('Veggie Delight', 9)">Add to Cart</button>
+            </div>
+            <div class="pizza">
+                <h3>Meat Lover's Pizza</h3>
+                <p>Price: $12</p>
+                <button onclick="addToCart('Meat Lover\'s Pizza', 12)">Add to Cart</button>
+            </div>
+            <!-- Add more pizzas as needed -->
+        </section>
+        <aside class="cart">
+            <h2>Cart</h2>
+            <ul id="cartItems">
+                <!-- Cart items will be added dynamically using JavaScript -->
+            </ul>
+            <p>Total: $<span id="total">0</span></p>
+<!-- Original HTML for the checkout button -->
+      <a href="buy.html">checkout/a>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+    <script src="receipt.html"></script>
+</body>
+</html>

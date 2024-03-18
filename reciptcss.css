@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.receipt {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.receipt h2 {
+    margin-top: 0;
+}
+
+.receipt ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.receipt ul li {
+    margin-bottom: 10px;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.total p {
+    margin: 5px 0;
+}
+
+.total p span {
+    float: right;
+    font-weight: bold;
+}
+
